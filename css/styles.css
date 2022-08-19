@@ -1,0 +1,57 @@
+:root {
+  /* Fonts */
+  --maine-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  /* Text colors */
+  --maine-txt-cl: #212121;
+  --gray-txt-cl: #757575;
+  --light-txt-cl: #ffffff;
+  --accent-txt-cl: #2196f3;
+
+  /* Background colors */
+  --accent-bgd-cl: #2196f3;
+}
+
+.page {
+  font-family: var(--maine-font);
+  color: var(--maine-txt-cl);
+}
+
+/* Reset */
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+.accent {
+  color: var(--accent-txt-cl);
+}
+
+.header .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.header .link:hover,
+.header .link:focus {
+  color: var(--accent-txt-cl);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  font-family: var(--secondary-font);
+  color: #000000;
+  text-decoration: none;
+}
